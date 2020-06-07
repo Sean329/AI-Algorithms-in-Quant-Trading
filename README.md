@@ -9,3 +9,7 @@ Scrape the text-based HTML formatted data from SEC Edgar database and leverage N
 In this project, I built my own deep learning model to classify the sentiment of messages from StockTwits, a social network for investors and traders. The model predicts if any particular message is bullish or bearish on some particular stock. From this, it can generate a signal of the public sentiment for various ticker symbols. 
 
 For example, if the model is passed with a twit of "Google is working on self driving cars, I'm bullish on $goog", it gives a prediction of 91.95% the entity is in bullish sentiment on Google stock, meaning the model can "read and understand" English quite well.
+
+### Project 7 - Combining Signals for Enhanced Alpha
+
+In this project, I combined signals on a random forest for enhanced alpha. While implementing this, the problem of overlapping samples was solved. Despite the significant differences between the factor performances in the three datasets(training, validation and test), the AI APLHA is able to deliver positive performance for the test dataset.
