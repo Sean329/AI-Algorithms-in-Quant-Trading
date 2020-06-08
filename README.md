@@ -13,3 +13,8 @@ For example, if the model is passed with a twit of "Google is working on self dr
 ### Project 7 - Combining Signals for Enhanced Alpha
 
 In this project, I combined signals on a random forest for enhanced alpha. While implementing this, the problem of overlapping samples was solved. Despite the significant differences between the factor performances in the three datasets(training, validation and test), the AI APLHA is able to deliver positive performance for the test dataset.
+
+### Project 8 - Backtesting the Strategy with Real-World Risks and Transaction Costs
+In this project, I built a fairly realistic backtester using the Barra data. The backtester performs portfolio optimization that includes transaction costs, and I implemented it with computational efficiency in mind, to allow for a reasonably fast backtest. I also used performance attribution to identify the major drivers of the portfolio's profit-and-loss (PnL).
+
+The transaction cost model is inspired by this paper: https://arxiv.org/pdf/1811.05230.pdf
